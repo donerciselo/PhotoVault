@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.photovault.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.photovault.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.photovault.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.photovault.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.photovault.app-debug-32:/xml_file_paths.xml.flat",
+        "source": "com.example.photovault.app-main-34:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.photovault.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.photovault.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.photovault.app-debug-32:/drawable_ic_launcher.png.flat",
+        "source": "com.example.photovault.app-main-34:/drawable/ic_launcher.png"
+    }
+]

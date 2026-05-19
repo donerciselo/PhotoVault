@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btn_0
+id btn_1
+id btn_2
+id btn_3
+id btn_4
+id btn_5
+id btn_6
+id btn_7
+id btn_8
+id btn_9
+id btn_div
+id btn_dot
+id btn_equals
+id btn_minus
+id btn_mult
+id btn_plus
+id calc_display
+id calculator_layout
+id camera_preview_container
+id camera_texture_view
+id pin_layout
+id webview
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+style Theme.PhotoVault

@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.photovault"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:8:5-65
+14-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:8:22-62
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.photovault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.photovault.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:10:5-26:19
+23        android:allowBackup="true"
+23-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\cac7beece0dddfa502dfcdff13519672\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:12:9-43
+28        android:label="PhotoVault"
+28-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:13:9-35
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:14:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+32-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:17:9-65
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:16:9-44
+34        <activity
+34-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:18:9-25:20
+35            android:name="com.example.photovault.MainActivity"
+35-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="true" >
+36-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:20:13-36
+37            <intent-filter>
+37-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:21:13-24:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:22:17-69
+38-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:23:17-77
+40-->C:\Users\mtugr.DESKTOP-DI9T1BC\Downloads\PhotoVault\app\src\main\AndroidManifest.xml:23:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.example.photovault.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\d00dc997daecf839e85fd8043a165080\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\0d6718b8c6ed9081d55477664357571e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\0d6718b8c6ed9081d55477664357571e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mtugr.DESKTOP-DI9T1BC\.gradle\caches\transforms-3\0d6718b8c6ed9081d55477664357571e\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
